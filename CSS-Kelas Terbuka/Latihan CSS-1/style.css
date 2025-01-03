@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Universal Selector */
+*{
+    font-family: Plus Jakarta Sans;
+}
+
+/* Type Selector */
+h1{
+    font-size: 32px;
+}
+
+/* Class Selector */
+h2.artikel{
+    font-size: 24px;
+}
+.credit{
+    font-size: 18px;
+}
+.penulis{
+    color:darkblue;
+    font-style: italic;
+}
+
+/* Id Selector */
+#artikel-1{
+    color: brown;
+}
+#artikel-2{
+    color: darkred;
+}
+
+/* Child Selector */
+p>span{
+    background-color: rgba(0, 150, 150, 0.5);
+}
+
+/* First Child */
+h3+p{
+    color:darkslategrey ;
+}
+
+/* All Child */
+h1~p{
+    text-align: justify;
+}
